@@ -6,8 +6,6 @@ class Game:
         for name in args:
             self.players.append(Player(name=name))
 
-g1 = Game('Allen', 'Chloe', 'Ryan')
-
 def main():
     g1 = Game('Allen', 'Chloe', 'Ryan')
     m1 = Monster()
